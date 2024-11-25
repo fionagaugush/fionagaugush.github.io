@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e904bb-835d-438a-8e0b-6f351d4ab85e" name="Changes" comment="add main" />
+    <list default="true" id="c6e904bb-835d-438a-8e0b-6f351d4ab85e" name="Changes" comment="color test change">
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,12 +163,38 @@
       <option name="project" value="LOCAL" />
       <updated>1732499509228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="color test">
+      <option name="closed" value="true" />
+      <created>1732499575072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732499575072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="color test change">
+      <option name="closed" value="true" />
+      <created>1732499636593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732499636593</updated>
+    </task>
+    <task id="LOCAL-00006" summary="color test change">
+      <option name="closed" value="true" />
+      <created>1732499666371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732499666371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup HTML" />
     <MESSAGE value="add main" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main" />
+    <MESSAGE value="color test" />
+    <MESSAGE value="color test change" />
+    <option name="LAST_COMMIT_MESSAGE" value="color test change" />
   </component>
 </project>

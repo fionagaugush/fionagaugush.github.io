@@ -1,0 +1,19 @@
+Index: index.html
+===================================================================
+diff --git a/index.html b/index.html
+deleted file mode 100644
+--- a/index.html	(revision 1fc6f19d393923bcaa5e5b5ef70684be34b2cea5)
++++ /dev/null	(revision 1fc6f19d393923bcaa5e5b5ef70684be34b2cea5)
+@@ -1,11 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-</head>
+-<body>
+-HTML SITE
+-
+-</body>
+-</html>
+\ No newline at end of file

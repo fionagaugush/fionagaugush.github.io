@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(185, 183, 183);
 }
 ul {
     list-style-type: none;
@@ -10,7 +10,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -24,6 +24,6 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  h1{
-    color: blue;
+  .name{
+    float: left;
   }

@@ -52,7 +52,7 @@ ul {
   
     margin: 0;
     background-color: #DCC7BE;
-    height: 600px;
+    height: 800px;
 
 
   }
@@ -107,19 +107,28 @@ ul {
 
     margin-left: 50%;
     display: flex;
-    margin: 200px;
+    margin: 100px;
    
   }
   
   #myCarousel {
-    height: 500px;
+    height: 600px;
     width: 600px; 
   }
   
   .carousel-img {
     max-height: 500px;
+    width: 600px; 
     display: block;
     margin: 0 auto;
           
     
+  }
+p{
+  color: white
+
+  }
+
+.white {
+   color: white;
   }

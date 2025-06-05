@@ -86,7 +86,7 @@ ul {
   }
   #aboutTitle{
     text-align: center;
-    font-size: 50px;
+    font-size: 150px;
     color:rgb(255, 255, 255);
      font-family: "DM Serif Display", serif;
     font-weight: 400;
@@ -95,7 +95,8 @@ ul {
     
   }
   #aboutText{
-    text-align:center;
+    width: 500px;
+    text-align:left;
     font-size: 20px;
     font-family: "Literata", serif;
     font-optical-sizing: auto;
@@ -110,10 +111,11 @@ ul {
     
   }
   #contactText{
+    
     color: rgb(85, 81, 81);
     font-size: 50px;
     text-align:center;
-    padding: 50px;
+    padding: 100px;
 
 
 
@@ -170,4 +172,9 @@ p{
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: italic;
+}
+#portrait{
+text-align: right;
+padding-right: 200px;
+   
 }

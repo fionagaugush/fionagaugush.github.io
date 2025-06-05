@@ -100,8 +100,9 @@ ul {
     font-size: 20px;
     font-family: "Literata", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
+    margin-left: 200px;
   }
   #projectsText{
     

@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(37, 40, 208);
+    background-color: #2528d0;
     margin:0;
     padding: 0;
     color: white;
+   
+    
 }
 header{
   position: fixed;
@@ -10,6 +12,11 @@ header{
   height: 80px; 
   background-color: white; 
   z-index: 1000; 
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
  
 }
 
@@ -43,6 +50,7 @@ ul {
 
   .name{
     float: left;
+    
   }
   .name a:hover{
     pointer-events: none;
@@ -57,27 +65,42 @@ ul {
 
   }
   #projectSection{
-    padding-top: 100px;
+ 
     margin: 0;
     background-color: #580A0A;
     height: 800px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
     
 
   }
   #contactSection{
     margin: 0;
     background-color:#ffffff;
-    height: 800px
+    height: 800px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
 
   }
   #aboutTitle{
     text-align: center;
     font-size: 50px;
     color:rgb(255, 255, 255);
+     font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    
   }
   #aboutText{
     text-align:center;
     font-size: 20px;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
   #projectsText{
     
@@ -125,10 +148,26 @@ ul {
     
   }
 p{
-  color: white
+  color: white;
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 
   }
 
 .white {
    color: white;
   }
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}

@@ -1,11 +1,10 @@
-{% extends "index.html" %}
+---
+layout: default
+title: boring
+---
 
-{% block content %}
-
+# About Fiona
 <script src="static/simplepage.js"></script>
-
-
-
 
 <body>
 <header>
@@ -16,14 +15,15 @@
         </li>
         <li>    <a href = "https://www.linkedin.com/in/fiona-gaugush-4b7b511b9/"> <img src="images/InBug-Black.png" height="50"></a>
         </li>
-
     </ul>
 </header>
+
+
+
 <div id="aboutSection" >
     <div id="aboutTitle" >
         Hello, I'm Fiona!
     </div>
-
     <div class="container-fluid">
         <div class="row">
 
@@ -51,8 +51,6 @@
                 My <br> Projects
             </div>
         </div>
-
-        <!-- Right Column: Carousel -->
         <div class="col-md-8">
             <div class="carousel-wrapper">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -62,8 +60,6 @@
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
-
-                    <!-- Slides -->
                     <div class="carousel-inner">
                         <!-- Slide 1 -->
                         <div class="item active text-center">
@@ -77,8 +73,6 @@
                                 <p> Link to Github (contact for access)  <a href = https://github.com/Aristotle2003/TravelSafe> here </a></p>
                             </div>
                         </div>
-
-                        <!-- Slide 2 -->
                         <div class="item text-center">
                             <img src="images/pawandperil.png" class="carousel-img">
                             <div class="carousel-text">
@@ -86,11 +80,8 @@
                                 <p>A fun fighting and exploring game made with Godot! Collaborators: Melina Garza and Samara Mohan</p>
                                 <p> Download the ZIP and run on Godot <a href = https://github.com/fionagaugush/VideoGameFinal> here! </a></p>
                             </div>
-
-                        </div>
-
-
-                        <div class="item text-center">
+                            </div>
+                            <div class="item text-center">
                             <img src="images/birdapp.png" class="carousel-img">
                             <div class="carousel-text">
                                 <h3 class = "white">Bird Sounds of Central Park</h3>
@@ -99,9 +90,7 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left"></span>
                         <span class="sr-only">Previous</span>
                     </a>
@@ -118,5 +107,3 @@
 
 
 </body>
-
-{% endblock %}

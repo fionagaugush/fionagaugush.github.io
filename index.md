@@ -7,7 +7,7 @@ title: home
 <body>
 <header>
     <ul>
-        <li class = "name"> <a>  Fiona Gaugush </a> </li>
+        <li class = "name">  Fiona Gaugush </li>
         <li>
             <a href = "https://github.com/fionagaugush"> <img src="images/github-mark.png" height="50"></a>
         </li>

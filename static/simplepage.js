@@ -13,14 +13,14 @@ var projectsTitle = document.getElementById("projectsTitle");
 var contactTitle = document.getElementById("contactTitle");
 
 contactButton.addEventListener("click", function() {
-    contactSection.scrollIntoView({behavior: "smooth"});  
+    contactSection.scrollIntoView({behavior: "smooth"});
   });
 aboutButton.addEventListener("click", function() {
-    aboutSection.scrollIntoView({behavior: "smooth"});  
-  }); 
+    aboutSection.scrollIntoView({behavior: "smooth"});
+  });
 projectsButton.addEventListener("click", function() {
-    projectsSection.scrollIntoView({behavior: "smooth"});  
-  }); 
+    projectsSection.scrollIntoView({behavior: "smooth"});
+  });
 
 
 
@@ -33,7 +33,7 @@ function update(){
     var projectsSectionPosition = projectsSection.getBoundingClientRect();
 
     console.log(aboutSectionPosition.top)
-   
+
 
     if (    aboutSectionPosition.top < 100 &  aboutSectionPosition.top > -aboutSectionPosition.height/2){
         aboutButton.style.fontWeight = "bold"
@@ -64,5 +64,5 @@ function update(){
 document.addEventListener("scroll", update);
 update();
 
-  
+
 })

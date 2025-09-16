@@ -58,9 +58,9 @@ title: home
                                 <h3 color = "white">FileSafe</h3>
                                 <p>Safe storage of encrypted documents. An iOS app made with Swift and Firebase. Created for COMS3997.</p>
                                 <b>
-                                    <p> For more information, check out our design document <a href = https://docs.google.com/document/d/1fDti2-6BAYaTBDuyXUKpx1w3ME1SH7w0dc8VTikJsKY/edit?usp=sharing> here </a> </p>
+                                    <p> For more information, check out our design document <a href = "https://docs.google.com/document/d/1fDti2-6BAYaTBDuyXUKpx1w3ME1SH7w0dc8VTikJsKY/edit?usp=sharing"> here </a> </p>
                                 </b>
-                                <p> Link to Github (contact for access)  <a href = https://github.com/Aristotle2003/TravelSafe> here </a></p>
+                                <p> Link to Github (contact for access)  <a href = "https://github.com/Aristotle2003/TravelSafe">  here </a> </p>
                             </div>
                         </div>
                         <div class="item text-center">
@@ -68,7 +68,7 @@ title: home
                             <div class="carousel-text">
                                 <h3 class = "white">Paws and Peril</h3>
                                 <p>A fun fighting and exploring game made with Godot! Collaborators: Melina Garza and Samara Mohan</p>
-                                <p> Download the ZIP and run on Godot <a href = https://github.com/fionagaugush/VideoGameFinal> here! </a></p>
+                                <p> Download the ZIP and run on Godot <a href = "https://github.com/fionagaugush/VideoGameFinal" > here! </a></p>
                             </div>
                         </div>
                         <div class="item text-center">
@@ -76,7 +76,7 @@ title: home
                             <div class="carousel-text">
                                 <h3 class = "white">Bird Sounds of Central Park</h3>
                                 <p>An online page to help you learn the different calls of birds that can be found in Central Park. This was a final project for COMS4170 at Columbia University. Collaborators: Jyothi Gandi and Angel Sanchez Octotlan</p>
-                                <p> View  <a href = https://github.com/fionagaugush/UIDesignFinal> here </a></p>
+                                <p> View  <a href = "https://github.com/fionagaugush/UIDesignFinal"> here </a></p>
                             </div>
                         </div>
                     </div>

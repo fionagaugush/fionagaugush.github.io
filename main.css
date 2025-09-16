@@ -49,6 +49,8 @@ ul {
   .name{
     float: left;
     color: rgb(85, 81, 81);
+    font-size: 30px;
+
     
   }
   .name a:hover{

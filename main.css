@@ -1,196 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F1EBEB;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: 100%;
+  object-fit: contain;
+  font-family:  "Gentium Book Plus", serif;
+   font-weight: 500;
 
-body{
-    background-color: #2528d0;
-    margin:0;
-    padding: 0;
-    color: white;
-   
-    
 }
-header{
-  position: fixed;
-  width:100%;
-  height: 10%; 
-  background-color: white; 
-  z-index: 1000; 
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-
-
- 
-}
-
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(85, 81, 81);
-    font-size: 30px;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+  padding: 10px 20px;
+}
+.container img {
+  max-width: 100%; /* Image will not exceed the width of its parent div */
+  height: auto; /* Maintains aspect ratio */
+  max-height:100%;
+    object-fit: contain;
+}
 
 
-
-  .name{
-    float: left;
-    color: rgb(85, 81, 81);
-    font-size: 30px;
-
-    
-  }
-  .name a:hover{
-    pointer-events: none;
-  }
-  #aboutSection{
-    padding: 5%;
-    background-color: #DCC7BE;
-    min-height: 110%;
-
-
-  }
-  #projectSection{
- 
-    margin: 0;
-    background-color: #580A0A;
-    min-height: 100%;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    
-
-  }
-  #contactSection{
-    margin: 0;
-    background-color:#ffffff;
-    min-height: 100%;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-
-  }
-  #aboutTitle{
-      font-size: 150px;
-
-    font-size: 10vw;
-    text-align: center;
-    color:rgb(255, 255, 255);
-     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-top: 10%;
-
-    
-  }
-  #aboutText{
-   
-    text-align:left;
-    
-    font-size: 20px;
-    font-size: 1.5vw;
-    font-family: "Literata", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: 30%;
-  }
-  #projectsText{
-    
-    padding: 20%;
-    font-size: 50px;
-    font-size: 6vw;
-    color:rgb(255, 255, 255);
-
-    
-  }
-  #contactText{
-    color: rgb(85, 81, 81);
-    font-size: 50px;
-    text-align:center;
-    padding: 100px;
-    font-size: 5vw;
-
-
-
-
-  }
-  .contactinfo{
-    font-size: 30px;
-    font-size: 5vw;
-
-    text-align:center;
-    text-align: center;
-  }
-  .emailLine{
-    text-align: center;
-  }
-  .carousel-wrapper {
-
-    margin-left: 10%;
-    display: flex;
-    margin: 10%;
-    text-align: right;
-   
-  }
-  
-  #myCarousel {
-    height: 90%;
-    width: 70%; 
-  
-  }
-  
-  .carousel-img {
-    max-height: 90%;
-    width: 70%; 
-    display: block;
-    margin: 0 auto;
-          
-    
-  }
-p{
-  color: white;
-  font-family: "Literata", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1vw;
-
-
-  }
-
-.white {
-   color: white;
-   font-size: 1.5vw;
-
-  }
-
-.dm-serif-display-regular {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
+.gentium-book-plus-regular {
+  font-family: "Gentium Book Plus", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
-.dm-serif-display-regular-italic {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-#portrait{
-text-align: right;
-margin-right: 30%;
-   
-}
+

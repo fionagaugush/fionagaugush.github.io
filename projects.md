@@ -1,15 +1,10 @@
 ---
 layout: default
-title: about
+title: projects
 permalink: /projects
+css: projects.css
+js: projects.js
 ---
-<head>
-<link rel="stylesheet" href="projects.css">
-</head>
-
-
-
-<script src="static/projects.js"></script>
 
 <body>
   <div class="row">

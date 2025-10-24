@@ -1,16 +1,11 @@
 ---
 layout: default
-title: home
+title: homepage
 permalink: /
+css: homepage.css
+js: homepage.js
 ---
-<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="homepage.css">
-</head>
 
-<script src="static/homepage.js"></script>
 
 
 <body>

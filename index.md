@@ -1,7 +1,7 @@
 ---
 layout: default
 title: home
-permalink: /index
+permalink: /
 ---
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@ permalink: /index
          <p id="speechbubble-text">  </p>
     </div>
     <a href = "/about" id = "heart"> </a>
-    <a href =  "/index" id = "music">   </a>
+    <a href =  "/" id = "music">   </a>
     <a href = "/projects" id = "pencil">  </a>
     </div>
 

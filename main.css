@@ -22,7 +22,7 @@ ul {
 
 ul li {
   float: left;
-  padding: 10px 20px;
+
 }
 .container img {
   max-width: 100%; /* Image will not exceed the width of its parent div */

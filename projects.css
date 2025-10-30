@@ -2,18 +2,17 @@
   background-color: white;
   height: 35vw;
   border-radius: 12px;
-  margin: 5% 10%;
   display: flex;
   flex-direction: column; /* stack title and image vertically */
   justify-content: center;
   align-items: center;
   position: relative; /* allows absolute positioning for arrows */
   overflow: hidden;
+  padding: 10vw;
 }
 
 #title {
   font-size: 2vw;
-  margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
 }
@@ -23,10 +22,11 @@
   text-align: center;
 }
 
-.project-container img {
+.project-container video {
   width: 70%;
   display: block;
-  margin: 0 auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   border-radius: 8px;
 }
 

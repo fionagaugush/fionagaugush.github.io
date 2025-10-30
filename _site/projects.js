@@ -1,9 +1,9 @@
 
  $(document).ready(function() {
-  const images = [
+  const videos = [
     "images/travelsafe.png",
-    "images/pawandperil.png",
-    "images/birdvideo.gif"
+    "images/pawsperil.gif",
+    "images/birdtutvideo.gif"
   ];
   const titles = [
      "FileSafe",
@@ -11,24 +11,24 @@
       "Bird Sounds of Central Park"
   ];
     const descriptions = [
-        "Safe storage of encrypted documents. An iOS app made with Swift and Firebase.",
-        "A fun fighting and exploring game made with Godot! <br> Collaborators: M. Garza and S. Mohan ",
-        "An online page to help you learn the different calls of birds that can be found in Central Park. <br>  Collaborators: J. Gandi and A. Sanchez Octotlan"
+        "<b>Safe storage of encrypted documents</b>.<br> An iOS app made with <b>Swift and Firebase</b>, using AES encryption for users to create, upload, and store sensitive documents. <br> Collaborator: S. Shao",
+        "<b>Fighting and exploring game </b> A <b> Godot </b> based game where the player must fight off enemies and complete multiple levels. <br> Collaborators: M. Garza and S. Mohan ",
+        "<b> Bird sound learning page</b><br> An online page made with <b>Flask</b> that teaches users calls for birds local to Central Park. <br>  Collaborators: J. Gandi and A. Sanchez Octotlan"
 
     ];
     const linksDemos =[
     "",
-     "<a href = 'https://youtu.be/q__UOUh2yn8'> Youtube Demo </a>",
-      "<a href = 'https://youtu.be/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4'> Youtube Demo </a> "
+     "<a href = 'https://youtu.be/q__UOUh2yn8'><img src = 'images/tutorial.png'> </img> </a>",
+      "<a href = 'https://youtu.be/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4'> <img src = 'images/tutorial.png'> </img>  </a> "
 
 
 
 
     ];
     const linksGitHub = [
-     "<a href = 'https://github.com/fionagaugush/FileSafe'> Code </a> ",
-      "<a href = 'https://github.com/fionagaugush/VideoGameFinal'> Code </a> ",
-      "<a href = 'https://github.com/fionagaugush/UIDesignFinal'> Code </a> "
+     "<a href = 'https://github.com/fionagaugush/FileSafe'> <img src = 'images/code.png'> </img> </a> ",
+      "<a href = 'https://github.com/fionagaugush/VideoGameFinal'> <img src = 'images/code.png'> </img> </a> ",
+      "<a href = 'https://github.com/fionagaugush/UIDesignFinal'> <img src = 'images/code.png'> </img> </a> "
 
 
     ];
@@ -36,15 +36,16 @@
   let current = 0;
   const imgEl = document.getElementById("carousel");
   const rightArrow = document.getElementById("rightArrow");
-  const leftArrow = document.getElementById("leftArrow")
+  const leftArrow = document.getElementById("leftArrow");
   const titleEl = document.getElementById("title");
   const descriptionEl = document.getElementById("description");
   const codeEl = document.getElementById("code");
   const demoEl = document.getElementById("demo");
 
+
   rightArrow.addEventListener("click", () => {
-    current = (current + 1) % images.length;
-     imgEl.src = images[current];
+    current = (current + 1) % videos.length;
+     imgEl.src = videos[current];
      titleEl.innerHTML = titles[current];
      descriptionEl.innerHTML = descriptions[current];
      codeEl.innerHTML = linksGitHub[current];
@@ -55,8 +56,8 @@
 
   });
    leftArrow.addEventListener("click", () => {
-      current =  (current - 1 + images.length) % images.length;
-       imgEl.src = images[current];
+      current =  (current - 1 + videos.length) % videos.length;
+        imgEl.src = videos[current];
        titleEl.innerHTML = titles[current];
        descriptionEl.innerHTML = descriptions[current];
        codeEl.innerHTML = linksGitHub[current];

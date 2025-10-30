@@ -16,10 +16,12 @@ js: projects.js
     <div class="col-8">
       <div class="project-container">
         <div id="title">FileSafe</div>
-        <img src="images/travelsafe.png" class="carousel-img" id="carousel" alt="TravelSafe Preview">
-        <div id="description"> Safe storage of encrypted documents. An iOS app made with Swift and Firebase.</div>
-        <div id="demo">Youtube Demo</div>
-        <div id="code">  <a href = 'https://github.com/fionagaugush/FileSafe'> Code </a> 
+        <img class = "carousel-img" id="carousel" src="images/travelsafe.png" >
+        <div id="description">  <b>Safe storage of encrypted documents</b>.<br> An iOS app made with <b>Swift and Firebase</b>, using AES encryption for users to create, upload, and store sensitive documents. <br> Collaborator: S. Shao
+</div>
+        <div id="demo"></div>
+        <div id="code"> <a href = 'https://github.com/fionagaugush/FileSafe'> <img src = 'images/code.png' >  </a> 
+
 </div>
       </div>
     </div>

@@ -1,0 +1,18 @@
+#portrait{
+  justify-content: right;
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: 5vw;
+
+}
+#about-text{
+    text-align: left;
+    margin-left: 10vw;
+    margin-top:6vw;
+    font-size: 1vw;
+
+}
+#heading{
+    font-size: 2vw;
+
+}

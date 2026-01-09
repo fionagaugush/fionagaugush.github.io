@@ -1,12 +1,4 @@
----
-layout: default
-title: about
-permalink: /about
-css: about.css
-js: about.js
----
 
-<body>
 <div class="container-fluid">
         <div class="row">
         <div class="col-6">
@@ -32,9 +24,4 @@ js: about.js
             </div>
         </div>
     </div>
-
-
-
-
-</body>
 

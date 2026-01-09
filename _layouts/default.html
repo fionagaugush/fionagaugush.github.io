@@ -28,26 +28,33 @@
 </head>
 <body>
 <main>
-    <!-- Navbar / Menu -->
+
     <ul>
         <li>
-            <a href="/" class="home">
-                <img src="{% if page.url == '/' %}/images/homelogoHover.png{% else %}/images/homelogo.png{% endif %}" alt="Home">
+
+
+            <a href="#projects" class="projects" id = "click-projects">
+                projects
             </a>
+
         </li>
         <li>
-            <a href="/about" class="about">
-                <img src="{% if page.url == '/about' %}/images/aboutheartHover.png{% else %}/images/aboutheart.png{% endif %}" alt="About">
+
+            <a href="#about" class ="about" id = "click-about">
+                &nbsp;about&nbsp;
             </a>
+
         </li>
         <li>
-            <a href="/projects" class="projects">
-                <img src="{% if page.url == '/projects' %}/images/projectslogoHover.png{% else %}/images/projectslogo.png{% endif %}" alt="Projects">
+
+            <a href="#welcome"  class="home" id = "click-home">
+                 home
             </a>
+
         </li>
 
-        <li style="float:right"><a href="https://github.com/fionagaugush"><img src="/images/GitHub-logo.png"></a></li>
-        <li style="float:right"><a href="https://www.linkedin.com/in/fiona-gaugush-4b7b511b9/"><img src="/images/linkedin.png"></a></li>
+        <li style="float:left"> <a href="#welcome"> fiona_gaugush </a> </li>
+
     </ul>
 
     {{ content }}

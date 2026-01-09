@@ -14,7 +14,7 @@
   ];
     const descriptions = [
         "<b>Safe storage of encrypted documents</b>.<br> An iOS app made with <b>Swift and Firebase</b>, using AES encryption for users to create, upload, and store sensitive documents. <br> Collaborator: S. Shao",
-        "<b>Fighting and exploring game </b> A <b> Godot </b> based game where the player must fight off enemies and complete multiple levels. <br> Collaborators: M. Garza and S. Mohan ",
+        "<b>Fighting and exploring game </b> <br> A <b> Godot </b> based game where the player must fight off enemies and complete multiple levels. <br> Collaborators: M. Garza and S. Mohan ",
         "<b> Bird sound learning page</b><br> A page made with <b>Flask</b> that teaches users calls for birds local to Central Park. <br>  Collaborators: J. Gandi and A. Sanchez Octotlan",
         "<b> Web Audio Synth</b> <br> A synth made with <b> Web Audio API </b> with ability to change wave type, synthesis, partials, frequency, and index of modulation."
 
@@ -24,9 +24,6 @@
      "<a href = 'https://youtu.be/q__UOUh2yn8'><img src = 'images/tutorial.png'> </img> </a>",
       "<a href = 'https://youtu.be/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4'> <img src = 'images/tutorial.png'> </img>  </a> ",
       ""
-
-
-
 
     ];
     const linksGitHub = [

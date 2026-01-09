@@ -109,20 +109,20 @@ margin:0;
 }
 
 .title-card {
-  font-size: 0.5rem;
+  font-size: 2vw;
   margin: 0px;
 
 }
 
 .sub-title {
-  font-size: 0.25rem;
+  font-size: 1.5vw;
   margin: 0px;
   padding: 0px;
   color: #BA5A31;
 }
 
 .project-card p {
-  font-size: 0.25rem;
+  font-size: 1vw;
   color: #334E58;
   margin-bottom: 0.2rem;
 }

@@ -37,10 +37,15 @@ js: homepage.js
                 served as a <b>Software Development Intern</b>. I gained experience managing tickets in <b>Jira</b>, creating <b>clear documentation</b>, and writing <b>SQL queries </b>to access important information. 
                 Most significantly, I worked on a <b>SalesForce migration</b>, conducting important testing. 
                 <br> During my time in college, I also gained experience working for both 
-               <b>WKCR and WBAR </b> . I love to connect with people, and I believe music is the perfect way to do that. <br>
-            <img src="images/Github-logo.png" width="50vw" alt="Code icon">
-            <img src="images/linkedin.png" width="50vw" alt="LinkedIn icon">
-            
+               <b>WKCR and WBAR </b> . I love to connect with people, and I believe music is the perfect way to do that.<br>
+               <div style="display: flex; gap: 10px; align-items: center;">
+             <a href="https://github.com/fionagaugush" target="_blank">
+                <img src="images/Github-logo.png" width="50" alt="Code icon">
+            </a>
+  <a href="https://www.linkedin.com/in/fionagaugush/" target="_blank">
+    <img src="images/linkedin.png" width="50" alt="LinkedIn icon">
+  </a>
+</div>
             </div> 
             </div>
             <div class="col-6" >

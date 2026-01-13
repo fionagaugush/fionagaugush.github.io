@@ -7,34 +7,30 @@ $(document).ready(function () {
 const projectsData = [
   {
     title: "FileSafe",
-    image: "images/travelsafe.png",
-    subtitle: "<b>Safe storage of encrypted documents</b>",
+    image: "https://www.youtube.com/embed/0tUCay95fY8",
+    subtitle: "Swift, Firebase, XCode",
     description: "An iOS app made with <b>Swift and Firebase</b>, using AES encryption for users to create, upload, and store sensitive documents.<br>Collaborator: S. Shao",
-    demo: "",
     github: "<a href='https://github.com/fionagaugush/FileSafe'> <button class= 'button right' > Code </button> </a>"
   },
   {
     title: "Paws and Peril",
-    image: "images/pawsperil.gif",
-    subtitle: "<b>Fighting and exploring game</b>",
+    image: "https://www.youtube.com/embed/q__UOUh2yn8",
+    subtitle: "Godot, GDScript",
     description: "A <b>Godot</b> based game where the player must fight off enemies and complete multiple levels.<br>Collaborators: M. Garza and S. Mohan",
-    demo: "<a href='https://youtu.be/q__UOUh2yn8'> <button type='button'> Demo </button> </a>",
     github: "<a href='https://github.com/fionagaugush/VideoGameFinal'> <button class= 'button right' >  Code </button> </button>"
   },
   {
     title: "Central Park Birds",
-    image: "images/birdtutvideo.gif",
-    subtitle: "<b>Bird sound learning page</b>",
+    image: "https://www.youtube.com/embed/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4",
+    subtitle: "Flask, JavaScript, HTML, CSS",
     description: "A page made with <b>Flask</b> that teaches users calls for birds local to Central Park.<br>Collaborators: J. Gandi and A. Sanchez Octotlan",
-    demo: "<a href='https://youtu.be/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4'><button type='button'>Demo</button></a>",
     github: "<a href='https://github.com/fionagaugush/UIDesignFinal'><button class= 'button right' > Code</button></a>"
   },
   {
     title: "Web Audio Synth",
-    image: "images/synth.gif",
-    subtitle: "<b>Synth</b>",
+    image: "https://www.youtube.com/embed/8bCChR450DI",
+    subtitle: "Web Audio API, HTML, JavaScript",
     description: "A synth made with <b>Web Audio API</b> with ability to change wave type, synthesis, partials, frequency, and index of modulation.",
-    demo: "",
     github: "<a href='https://codesandbox.io/p/sandbox/synth-r8ltrh?file=%2Findex.html%3A66%2C3'><button class= 'button right' > Code</button></a>"
   }
 ];
@@ -63,9 +59,9 @@ projectsData.forEach(project => {
 
   // Image / Video
   if (project.image) {
-    const img = document.createElement('img');
+    const img = document.createElement('iframe');
     img.src = project.image;
-    img.alt = project.title;
+    img.width = "50%";
     card.appendChild(img);
   }
     // Description
@@ -73,15 +69,6 @@ projectsData.forEach(project => {
     p.innerHTML = project.description;
     card.appendChild(p);
 
-  // Links container
-   const demo = document.createElement('div');
-   demo.className = 'demo';
-   const code = document.createElement('div');
-   code.className = 'code';
-  demo.innerHTML = project.demo;
-  code.innerHTML = project.github;
-  card.appendChild(demo);
-  card.appendChild(code);
 
   container.appendChild(card);
 });
@@ -143,7 +130,9 @@ projectsData.forEach(project => {
 
     window.addEventListener('scroll', () => {
    const arrow = document.getElementById("arrowDown");
+   arrow.classList.remove("show");
    arrow.classList.add("hide");
+   
 
         });
 

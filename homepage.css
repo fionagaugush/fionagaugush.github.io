@@ -2,25 +2,38 @@ body{
 text-align:center;
 }
 
+section {
+  min-height: 100vh;
+  scroll-margin-top: 13vh; 
+
+}
+
+section#welcome {
+  scroll-margin-top: 0; /* scrolls fully to top */
+}
+#links{
+  text-align: LEFT;
+}
 #welcome {
-  position: relative;
-  min-height: 45vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start;
   text-align: center;
-  margin:0px;
+  min-height: 100vh;
+  overflow: hidden;
+  padding-top: 35vh; /* visual spacing when page loads */
 }
 
 #welcome-text {
+  min-height: 6vw;
   font-size: 5vw;
   line-height: 1.2;
 }
+
 #welcome-desc {
-    font-size: 2vw;
-    height: 3vw;
-    line-height: 1.2;
+  font-size: 2vw;
+  line-height: 1.2;
 }
 #welcome-desc-text-add {
     position: static;
@@ -29,19 +42,19 @@ text-align:center;
 }
 #project-title{
 font-size: 3vw;
+font-weight: bold;
 }
+
 #arrowDown {
   position: absolute;
-  bottom: 2vw;
+  top: 85vh;              /* 👈 move up/down by changing this */
   left: 50%;
   transform: translateX(-50%);
   font-size: 3vw;
   cursor: pointer;
-  opacity: 0;
   z-index: 10;
-  pointer-events: auto;
   transition: opacity 2s ease;
-
+  opacity: 0;
 }
 
 #arrowDown.show {
@@ -56,16 +69,7 @@ font-size: 3vw;
 
 }
 
-section {
-  padding: 0;
-  margin: 1rem auto;
-  scroll-margin-top: 8vw;
-}
 
-section #welcome{
- scroll-margin-top: 0vw;
-   margin: 0rem auto;
-}
 
 #portrait{
   justify-content: right;
@@ -80,10 +84,15 @@ section #welcome{
 }
 #heading{
     font-size: 2vw;
-    margin:0;
+    margin:0; 
+    font-weight: bold;
 }
 #about{
-margin:0;
+  padding: 10vh 0;      
+  margin: AUTO 8rem ;
+}
+#projects{
+   padding: 5vh 0; 
 }
 
 
@@ -111,6 +120,8 @@ margin:0;
 .title-card {
   font-size: 2vw;
   margin: 0px;
+  font-weight: bold;
+  font-style: italic;
 
 }
 
@@ -119,6 +130,8 @@ margin:0;
   margin: 0px;
   padding: 0px;
   color: #BA5A31;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .project-card p {
@@ -131,26 +144,11 @@ margin:0;
   width: 2vw;
   height: 1vw;
   margin: 0 0.1rem;
-}
-.project-card demo{
-text-align:left;
+  text-align:left;
 }
 
 
 
-
-button {
-  background-color: #BA5A31;
-  border: none;
-  color: #f5ebe0;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2vw;
-  cursor: pointer;
-  border-radius: 2px;
-  float: left;
-}
 button:hover{
 background-color: #914727; /* Darker blue on hover */
 color: #f5ebe0;

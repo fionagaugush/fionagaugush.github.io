@@ -9,17 +9,17 @@ js: homepage.js
 <body>
 
 <section id="welcome">
-<div id = "welcome-text">
+<div id = "welcome-text"> </div>
 
-</div>
 <div id = "welcome-desc">
 <span id = "welcome-desc-text"> </span>
-
 <span id="welcome-desc-text-add"></span>
 </div>
+
 <div id="arrowDown">&#129107;</div>
 
 </section>
+
 <section id="about">
 <div class="container-fluid">
         <div class="row">
@@ -37,8 +37,12 @@ js: homepage.js
                 served as a <b>Software Development Intern</b>. I gained experience managing tickets in <b>Jira</b>, creating <b>clear documentation</b>, and writing <b>SQL queries </b>to access important information. 
                 Most significantly, I worked on a <b>SalesForce migration</b>, conducting important testing. 
                 <br> During my time in college, I also gained experience working for both 
-               <b>WKCR and WBAR </b> . I love to connect with people, and I believe music is the perfect way to do that.
-            </div> </div>
+               <b>WKCR and WBAR </b> . I love to connect with people, and I believe music is the perfect way to do that. <br>
+            <img src="images/Github-logo.png" width="50vw" alt="Code icon">
+            <img src="images/linkedin.png" width="50vw" alt="LinkedIn icon">
+            
+            </div> 
+            </div>
             <div class="col-6" >
                 <div id = "portrait" >
                     <img src="images/portrait.JPEG" width="70%" >
@@ -47,20 +51,12 @@ js: homepage.js
         </div>
     </div>
 
-
 </section>
-
 
 <section id="projects">
 <div id = "project-title"> Selected Projects </div>
 <div class="projects-container"></div>
 
-
-
-
 </section>
 
-
-
 </body>
-    

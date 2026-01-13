@@ -10,28 +10,28 @@ const projectsData = [
     image: "https://www.youtube.com/embed/0tUCay95fY8",
     subtitle: "Swift, Firebase, XCode",
     description: "An iOS app made with <b>Swift and Firebase</b>, using AES encryption for users to create, upload, and store sensitive documents.<br>Collaborator: S. Shao",
-    github: "<a href='https://github.com/fionagaugush/FileSafe'> <button class= 'button right' > Code </button> </a>"
+    github: "https://github.com/fionagaugush/FileSafe"
   },
   {
     title: "Paws and Peril",
     image: "https://www.youtube.com/embed/q__UOUh2yn8",
     subtitle: "Godot, GDScript",
     description: "A <b>Godot</b> based game where the player must fight off enemies and complete multiple levels.<br>Collaborators: M. Garza and S. Mohan",
-    github: "<a href='https://github.com/fionagaugush/VideoGameFinal'> <button class= 'button right' >  Code </button> </button>"
+    github: "https://github.com/fionagaugush/VideoGameFinal"
   },
   {
     title: "Central Park Birds",
     image: "https://www.youtube.com/embed/IjjbSFo4r0I?si=gY0y7-SN2sMprDS4",
     subtitle: "Flask, JavaScript, HTML, CSS",
     description: "A page made with <b>Flask</b> that teaches users calls for birds local to Central Park.<br>Collaborators: J. Gandi and A. Sanchez Octotlan",
-    github: "<a href='https://github.com/fionagaugush/UIDesignFinal'><button class= 'button right' > Code</button></a>"
+    github: "https://github.com/fionagaugush/UIDesignFinal"
   },
   {
     title: "Web Audio Synth",
     image: "https://www.youtube.com/embed/8bCChR450DI",
     subtitle: "Web Audio API, HTML, JavaScript",
     description: "A synth made with <b>Web Audio API</b> with ability to change wave type, synthesis, partials, frequency, and index of modulation.",
-    github: "<a href='https://codesandbox.io/p/sandbox/synth-r8ltrh?file=%2Findex.html%3A66%2C3'><button class= 'button right' > Code</button></a>"
+    github: "https://codesandbox.io/p/sandbox/synth-r8ltrh?file=%2Findex.html%3A66%2C3"
   }
 ];
 
@@ -61,7 +61,6 @@ projectsData.forEach(project => {
   if (project.image) {
     const img = document.createElement('iframe');
     img.src = project.image;
-    img.width = "50%";
     card.appendChild(img);
   }
     // Description
@@ -193,4 +192,34 @@ projectsData.forEach(project => {
         console.log("clicked")
         welcome.scrollIntoView({ behavior: 'smooth',});
       });
+
+
+
+
+      const sections = document.querySelectorAll("section");
+      const navLinks = document.querySelectorAll("ul li a:not(#name-label)");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 150;
+    const sectionHeight = section.offsetHeight;
+
+    if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === `#${current}`) {
+      link.classList.add("active");
+    }
+  });
+});
+
+
+
+
 });

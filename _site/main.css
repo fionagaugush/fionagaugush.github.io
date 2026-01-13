@@ -44,5 +44,18 @@ ul li {
 
 ul li a:hover {
   cursor: pointer;
-  color: #F7E3AF;
+  color: #d6a937;
 }
+
+ul li a:not(#name-label).active {
+  color: #d6a937; 
+}
+
+ul li a.active {
+  color: #d6a937; 
+}
+
+#name-label.active {
+  color: red; 
+}
+

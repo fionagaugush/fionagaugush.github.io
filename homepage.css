@@ -11,9 +11,7 @@ section {
 section#welcome {
   scroll-margin-top: 0; /* scrolls fully to top */
 }
-#links{
-  text-align: LEFT;
-}
+
 #welcome {
   display: flex;
   flex-direction: column;
@@ -88,8 +86,8 @@ font-weight: bold;
     font-weight: bold;
 }
 #about{
-  padding: 10vh 0;      
-  margin: AUTO 8rem ;
+  padding: 10vw 0;      
+  margin: AUTO 8vw ;
 }
 #projects{
    padding: 5vh 0; 
@@ -112,9 +110,11 @@ font-weight: bold;
 }
 
 .project-card img {
-  width: 100%;
+
   border-radius: 2px;
   margin-bottom: 0.25rem;
+  width: 50%;
+  height: 50%;
 }
 
 .title-card {

@@ -39,11 +39,11 @@ js: homepage.js
                 <br> During my time in college, I also gained experience working for both 
                <b>WKCR and WBAR </b> . I love to connect with people, and I believe music is the perfect way to do that.<br>
                <div style="display: flex; gap: 10px; align-items: center;">
-             <a href="https://github.com/fionagaugush" target="_blank">
-                <img src="images/Github-logo.png" width="50" alt="Code icon">
-            </a>
-  <a href="https://www.linkedin.com/in/fionagaugush/" target="_blank">
-    <img src="images/linkedin.png" width="50" alt="LinkedIn icon">
+                <a href="https://github.com/fionagaugush" target="_blank">
+                <img src="images/Github-logo.png" width="50vw" alt="Code icon">
+                </a>
+             <a href="https://www.linkedin.com/in/fionagaugush/" target="_blank">
+             <img src="images/linkedin.png" width="50vw" alt="LinkedIn icon">
   </a>
 </div>
             </div> 

@@ -112,19 +112,20 @@ font-weight: bold;
   background: none;
   padding: 0.25rem;
   text-align: left;
+  overflow: hidden;
 }
 
 .project-card img {
-
   border-radius: 2px;
   margin-bottom: 0.25rem;
 
-  width: 50%;        /* fill container */
-  max-width: 100%;   /* never overflow */
-  height: auto;      /* scale height correctly */
+  width: 100%;
+  height: auto;
+
+  max-width: 100%;
+  max-height: 60vh;     /* prevents tall images from dominating */
 
   object-fit: contain;
-
 }
 
 .title-card {

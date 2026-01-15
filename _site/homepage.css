@@ -123,9 +123,8 @@ font-weight: bold;
   height: auto;
 
   max-width: 100%;
-  max-height: 60vh;     /* prevents tall images from dominating */
+  max-height: 60vh;    
 
-  object-fit: contain;
 }
 
 .title-card {

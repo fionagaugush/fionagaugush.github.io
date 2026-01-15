@@ -3,7 +3,7 @@ text-align:center;
 }
 
 section {
-  min-height: 100vh;
+  height: 100vh;
   scroll-margin-top: 13vh; 
 
 }
@@ -11,6 +11,11 @@ section {
 section#welcome {
   scroll-margin-top: 0; /* scrolls fully to top */
 }
+section#projects {
+ min-height: 100vh;
+}
+
+
 
 #welcome {
   display: flex;
@@ -113,8 +118,13 @@ font-weight: bold;
 
   border-radius: 2px;
   margin-bottom: 0.25rem;
-  width: 50%;
-  height: 50%;
+
+  width: 50%;        /* fill container */
+  max-width: 100%;   /* never overflow */
+  height: auto;      /* scale height correctly */
+
+  object-fit: contain;
+
 }
 
 .title-card {

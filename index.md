@@ -7,7 +7,6 @@ js: homepage.js
 ---
 
 <body>
-
 <section id="welcome">
 <div id = "welcome-text"> </div>
 
@@ -50,7 +49,7 @@ js: homepage.js
             </div>
             <div class="col-6" >
                 <div id = "portrait" >
-                    <img src="images/portrait.JPEG" width="70%" >
+                    <img src="images/portrait.jpg" width="70%" >
                 </div>
             </div>
         </div>
@@ -61,7 +60,5 @@ js: homepage.js
 <section id="projects">
 <div id = "project-title"> Selected Projects </div>
 <div class="projects-container"></div>
-
 </section>
-
 </body>
